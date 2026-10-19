@@ -1,0 +1,53 @@
+{
+  "resultats": {
+    "titre": "Résultats des bots",
+    "avertissement": "Résultats passés : ils ne préjugent pas des résultats futurs. Le trading comporte un risque de perte en capital. Contenu éducatif, pas un conseil financier."
+  },
+
+  "appel_pdf": "<b>Le guide complet Index Zone est offert.</b> Écris « INDEX » en privé à [@TON_PSEUDO] pour le recevoir.",
+
+  "programme": [
+    {
+      "id": "index-zone-matin",
+      "type": "index_zone",
+      "heure": "09:00",
+      "jours": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "rappel-live-18h",
+      "type": "texte",
+      "heure": "17:40",
+      "jours": [0, 1, 2, 3, 4],
+      "texte": "<b>Live dans 20 minutes</b> · 18h\n\nLes bots tournent en direct sur TikTok : chaque position expliquée, les gains comme les pertes. Pose tes questions en live.\n\n[LIEN DU COMPTE TIKTOK]"
+    },
+    {
+      "id": "rappel-live-21h",
+      "type": "texte",
+      "heure": "20:40",
+      "jours": [0, 1, 2, 3, 4],
+      "texte": "<b>Deuxième live à 21h</b>\n\nOn reprend les bots en direct pour la fin de séance US. Rejoins-nous sur TikTok.\n\n[LIEN DU COMPTE TIKTOK]"
+    }
+  ],
+
+  "index_zone": [
+    "<b>Index Zone · 01 — Les indices boursiers</b>\n\nUn indice mesure l'évolution, entre deux dates, de la valeur d'un panier d'actions. C'est une photo de la santé d'un marché.\n\nNasdaq 100, S&amp;P 500, Dow Jones, CAC 40, DAX… Chez Index Zone, on se concentre sur un seul marché : <b>le Nasdaq 100 (NAS100 / US100)</b>.",
+
+    "<b>Index Zone · 02 — Pourquoi le NAS100</b>\n\nLe Nasdaq 100 regroupe les 100 plus grandes sociétés non financières du Nasdaq, très axées tech et santé.\n\nSa volatilité en fait un terrain idéal pour le trading intraday : assez de mouvement pour trouver des opportunités chaque jour.",
+
+    "<b>Index Zone · 03 — Une stratégie mécanique</b>\n\nDes règles claires pour chaque décision : quand entrer, où placer le stop, où sortir. Pas d'interprétation, pas d'intuition.\n\n• Zéro émotion : les règles décident à ta place\n• Testable : on la vérifie sur l'historique avant de risquer un euro\n\nAucune méthode ne garantit le succès : les marchés changent, on suit ses résultats et on s'adapte.",
+
+    "<b>Index Zone · 04 — La tendance</b>\n\nTendance haussière = des sommets de plus en plus hauts (HH) et des creux de plus en plus hauts (HL). Baissière = l'inverse.\n\n<b>Règle :</b> on vérifie toujours la tendance sur une unité de temps supérieure. Aucun ordre à contre-tendance.",
+
+    "<b>Index Zone · 05 — La zone de réflexion</b>\n\nLe cœur de la méthode.\n\n• Plage horaire : <b>5h – 9h</b>, toujours la même\n• Unité de temps : <b>M15</b>\n• On trace 2 niveaux : le plus haut et le plus bas de la plage\n\nLa zone se trace à 9h, puis se prolonge sur la suite de la séance.",
+
+    "<b>Index Zone · 06 — L'outil Fibonacci</b>\n\nIl sert à projeter les niveaux de TP et de SL. On le trace du plus haut au plus bas de la zone (ou l'inverse selon le sens de la cassure).\n\nNiveaux à entrer : -0,1272 · 0 · 0,5 · 1 · 2 · 2,618 · 3,618 · 4,236",
+
+    "<b>Index Zone · 07 — L'exécution</b>\n\nTrois temps, toujours dans le même ordre :\n\n1. <b>Cassure</b> : une bougie M15 clôture hors de la zone\n2. <b>Ordre limite</b> : placé sur le niveau 1 du Fibonacci\n3. <b>Retest</b> : le prix revient sur la zone et déclenche l'ordre",
+
+    "<b>Index Zone · 08 — Le money management</b>\n\n• Risque max : <b>1 %</b> du capital par trade\n• Risk/reward visé : environ 1:3\n• Stop loss : -0,1272, au-delà de la zone\n• Break-even : stop remonté à l'entrée à 2,618\n• Take profit : 4,236\n\nC'est le MM strict qui fait la différence sur la durée, pas un trade isolé.",
+
+    "<b>Index Zone · 09 — La psychologie</b>\n\nUne stratégie mécanique peut être dure à vivre : il faut respecter le process à la lettre, même quand le graphique te suggère autre chose.\n\nLes pertes font partie du jeu. Les séries perdantes arrivent ; le process, lui, ne change pas.",
+
+    "<b>Index Zone · 10 — Le backtesting</b>\n\nSimuler la stratégie sur l'historique pour mesurer sa robustesse et bâtir la confiance nécessaire pour l'appliquer sans hésiter.\n\n<b>Ta mission :</b> 100 trades en backtest avant de passer en réel."
+  ]
+}
